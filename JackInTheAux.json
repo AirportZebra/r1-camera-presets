@@ -1869,5 +1869,106 @@
     "options": [],
     "randomizeOptions": false,
     "additionalInstructions": "Preserve subject identity within the ambitious concept. Mood: fearless, ambitious, craft for craft's sake."
+  },
+  {
+    "name": "ROME, 100 A.D.",
+    "category": [
+      "HISTORY",
+      "PHOTOREALISM"
+    ],
+    "message": "Take a picture and generate a richly detailed, photorealistic reconstruction placing the subject into the city of Rome at the height of its power, circa 100 A.D., during the reign of Trajan — the empire near its greatest territorial extent, the city itself a dense, loud, sun-bleached metropolis of over a million people. The subject should be dressed plausibly for their apparent social role in the scene (citizen, merchant, visitor, laborer, etc.) and fully integrated into the specific environment and activity described by the selected options, with the everyday scale and texture of the ancient world — not a sanitized museum diorama, but a living, working city.\n\nADDITIONAL INSTRUCTIONS\nArchitecture, clothing, and material culture must be historically plausible for Rome circa 100 A.D. (Trajanic era) — correct toga/tunic conventions by class and gender, accurate building materials (travertine, brick-faced concrete, marble veneer), no anachronistic elements (no visible glass windows in lower-class housing, no printed text, no metal alloys unavailable to the period). The city should feel genuinely inhabited and imperfect — weathered stone, patched plaster, real grime and wear — rather than a pristine reconstruction.\n\nNEGATIVE PROMPT\nvideo game render, CGI sheen, plastic-looking armor, Hollywood epic-film gloss, anachronistic fabric or footwear, modern facial expressions/makeup, empty or depopulated streets, pristine untouched marble, fantasy elements, graphic violence, gore.\n\nRANDOMIZATION RECOMMENDATION\nYes. Mixing the specific SITUATION beats with the specific COMPOSITION/lighting treatments produces a wide, historically consistent range of scenes — from grand civic spectacle to quiet domestic intimacy — while keeping everything anchored to one specific, well-researched moment in time rather than a vague \"ancient Rome\" pastiche.\n\nCREATIVE STRATEGY\nTwo internal variable axes, flattened into one options list per the app's actual schema: options 001–010 are SITUATION (the specific place and activity), options 011–020 are COMPOSITION (the specific photographic/lighting treatment). The fixed, unchanging parameters are the specific year (100 A.D.), the specific emperor's reign (Trajan), and the demand for lived-in historical accuracy over spectacle. The variables are where in the city the subject stands and how the moment is visually rendered.\n\nVISUAL DNA ANALYSIS\nCinematic Identity: Documentary historical reconstruction — closer to a meticulously researched museum-grade illustration brought to photographic life than a blockbuster sword-and-sandal epic.\nAtmosphere: Bustling, sun-warmed, dense, alive — a real working city rather than a monument.\nFraming Tendencies: Deep establishing wides balanced against intimate candid close moments; natural eye-level and elevated vantage points.\nEmotional Tone: Awe at scale and permanence, warmth of everyday human activity, quiet dignity in ordinary labor.\nMaterial Language: Sun-bleached travertine, red terracotta, worn stone steps, coarse wool and linen, bronze and iron fittings, dust, smoke, water.\nColor Relationships: Warm ochres, terracotta reds, and marble whites under Mediterranean light; cooler blue-grey tones in shadowed interiors and dusk scenes.\nVisual Storytelling: The ordinary and the monumental sharing the same frame — a laundry line beneath an aqueduct, a beggar beside a senator — conveying the city's real texture rather than a postcard version of it.",
+    "randomizeOptions": true,
+    "optionGroups": [
+      {
+        "title": "SITUATION_GROUP",
+        "options": [
+          {
+            "id": "001",
+            "text": "Forum Business: Standing amid the marble columns and crowded stalls of the Forum Romanum at midday, moneychangers shouting rates, a public notice freshly chiseled into stone nearby, senators in togas moving briskly past merchants and beggars."
+          },
+          {
+            "id": "002",
+            "text": "Bath House Repose: Relaxing in the steam and echo of a grand public bathhouse (thermae), mosaic floors underfoot, bathers of all classes mixing in the caldarium, slaves attending with linen and oil."
+          },
+          {
+            "id": "003",
+            "text": "Insula Balcony: Leaning from the wooden balcony of a cramped, multi-story apartment block (insula), laundry strung overhead, the narrow street below choked with cart traffic and street vendors."
+          },
+          {
+            "id": "004",
+            "text": "Circus Maximus Roar: Seated in the packed stone tiers of the Circus Maximus mid-chariot-race, dust and splinters flying from the turning post, over a hundred thousand spectators roaring in unison."
+          },
+          {
+            "id": "005",
+            "text": "Aqueduct Approach: Walking beneath a towering multi-arched aqueduct on the city's outskirts, fresh water audibly rushing through the channel far overhead, a herd of goats crossing the road nearby."
+          },
+          {
+            "id": "006",
+            "text": "Market Day, Subura: Haggling in the chaotic, working-class Subura market district, baskets of olives, amphorae of wine and oil, a butcher's stall, the smell of the city implied through visible grime and crowding."
+          },
+          {
+            "id": "007",
+            "text": "Domus Atrium: Standing in the open-roofed atrium of a wealthy private home (domus), rainwater collecting in the impluvium pool below, painted frescoes and a household shrine (lararium) on the wall."
+          },
+          {
+            "id": "008",
+            "text": "Legionary Muster: Watching a column of Roman legionaries in full lorica segmentata armor march past a city gate, standards raised, returning from or departing to the frontier."
+          },
+          {
+            "id": "009",
+            "text": "Temple Steps: Climbing the wide marble steps of a temple to a classical god, incense smoke drifting from an altar, a priest in ceremonial dress performing a public rite before a modest crowd."
+          },
+          {
+            "id": "010",
+            "text": "Harbor at Ostia: Standing on the busy quayside at Rome's port town, grain ships being unloaded by dockworkers, an official inspecting cargo manifests, gulls overhead."
+          }
+        ]
+      },
+      {
+        "title": "COMPOSITION_GROUP",
+        "options": [
+          {
+            "id": "011",
+            "text": "Documentary Wide: A broad, deep-focus establishing shot emphasizing the scale of Roman architecture and crowd density, natural Mediterranean midday light, slight heat-haze shimmer."
+          },
+          {
+            "id": "012",
+            "text": "Candid Street-Level: An intimate, eye-level candid framing as if caught mid-moment by an unseen observer, shallow depth of field isolating the subject against the blurred bustle behind them."
+          },
+          {
+            "id": "013",
+            "text": "Golden Hour Amber: Warm, low, late-afternoon sunlight raking across weathered stone and terracotta rooftops, long shadows stretching across a piazza or forum."
+          },
+          {
+            "id": "014",
+            "text": "Interior Half-Light: Dim, warm interior lighting from oil lamps and small high windows, smoke-stained ceiling beams, deep shadow contrasted against a single lit face or object."
+          },
+          {
+            "id": "015",
+            "text": "Overcast Marble Grey: Flat, even, slightly overcast daylight, emphasizing the cool grey-white of marble and stone rather than golden warmth, a quieter and more contemplative mood."
+          },
+          {
+            "id": "016",
+            "text": "Crowd-Swallowed: The subject is a small, human-scaled element within an overwhelming, densely packed crowd, emphasizing anonymity and the sheer population of the ancient city."
+          },
+          {
+            "id": "017",
+            "text": "Elevated Vantage: Shot from a rooftop terrace or hillside looking down over a sprawl of red-tiled roofs, temples, and columned buildings, the Tiber river or distant hills visible."
+          },
+          {
+            "id": "018",
+            "text": "Dust and Motion: Deliberate motion blur on background elements — cart wheels, marching feet, fluttering fabric — while the subject remains sharp, conveying the city's constant noise and movement."
+          },
+          {
+            "id": "019",
+            "text": "Torch-lit Evening: Warm, flickering torchlight along a colonnade or street corner at dusk, deep blue twilight sky above, smoke curling from braziers."
+          },
+          {
+            "id": "020",
+            "text": "Intimate Portrait: A closer, more posed-feeling portrait within the setting, natural directional light on the face, background softly blurred but clearly Roman in character."
+          }
+        ]
+      }
+    ]
   }
 ]
