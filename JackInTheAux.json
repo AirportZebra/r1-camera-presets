@@ -193,6 +193,14 @@
     ]
   },
   {
+    "name": "ONE LIFE IN ONE FRAME",
+    "category": ["TIME", "SURREAL", "LIFE STAGES", "WILD IMAGERY"],
+    "message": "Take a picture and reimagine it as a single continuous unbroken scene — one hallway, one beach, one road, or one staircase — along which the subject appears multiple times simultaneously at different ages, walking the same path from infancy to old age, all coexisting in the same unified light and environment. The youngest version should be furthest in the background or at one end, the oldest nearest the foreground or at the other end, with two or three ages in between, all clearly the same recognizable person.\n\nCRITICAL:\n• All age-versions occupy ONE continuous physical space — no panels, no grid, no side-by-side comparison layout\n• Consistent lighting and perspective across every age so it reads as one real photograph, not a collage\n• Each version should be doing something small and human — glancing back, reaching a hand out, pausing — that visually links them",
+    "options": [],
+    "randomizeOptions": false,
+    "additionalInstructions": "Preserve facial identity across all ages using consistent bone structure. Mood: tender, vertiginous, a whole life seen at once."
+  },
+  {
     "name": "SILVERHAWKS",
     "category": [
       "SCI-FI",
